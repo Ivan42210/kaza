@@ -1,0 +1,13 @@
+.banner {
+    height: 223px;
+    background: black;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.banner > img {
+    object-fit: cover;
+    opacity: 0.5;
+    width: 100%;
+    object-position: -1px -232px;
+}

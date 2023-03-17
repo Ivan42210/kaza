@@ -1,18 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './index.css';
-import Home from './Pages/Home';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Home from './Pages/Home';
+import About from './Pages/About';
 import announces from './datas/announces';
+import './styles/Global.css';
+import './styles/Banner.css'
 
 console.log(announces)
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Header />
-    <Home />
+    <Router >
+      <Header />
+          <Routes>
+          <Route exact path='/' element={<Home />}/>
+          <Route path='/about' element={<About />}/>
+          </Routes>
+       
     <Footer />
+    </Router>
   </React.StrictMode>
 );
 

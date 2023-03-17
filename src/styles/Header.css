@@ -1,0 +1,13 @@
+.header {
+    padding: 0.8em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link {
+    color: #ff6060;
+    margin-left: 10px;
+    text-decoration: none;
+    font-weight: 700;
+}
