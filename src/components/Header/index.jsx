@@ -1,6 +1,10 @@
+import logo from '../../assets/logo.svg'
+
 function Header(){
     return(
-        <div></div>
+        <nav>
+            <img src={logo} alt="" />
+        </nav>
     )
 };
 
