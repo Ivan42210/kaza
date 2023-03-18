@@ -1,10 +1,16 @@
-import BannerHome from '../../components/Banner/BannerHome';
+import Banner from '../../components/Banner';
 import CardSection from '../../components/CardSection';
+import BannerPic from '../../assets/bannerHome.png'
 
 function Home() {
+  const alt = 'Kaza Homepage picture';
+  const textBanner = 'Chez vous, partout et ailleurs'
   return (
     <div className="App max-width">
-      < BannerHome/>
+      < Banner 
+      img={BannerPic}
+      alt={alt}
+      text={textBanner}/>
       <CardSection />
     </div>
   );

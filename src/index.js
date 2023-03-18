@@ -6,6 +6,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './Pages/Home';
 import About from './Pages/About';
+import LogementPage from './Pages/LogementPage';
 import './styles/Global.css';
 import './styles/Banner.css'
 import './styles/Colors.css';
@@ -19,6 +20,7 @@ root.render(
           <Routes>
           <Route exact path='/' element={<Home />}/>
           <Route path='/about' element={<About />}/>
+          <Route path='/logement/:id' element={<LogementPage />}/>
           </Routes>
        
     <Footer />
