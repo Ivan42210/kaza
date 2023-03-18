@@ -1,0 +1,22 @@
+.announce-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*host part */
+
+.host {
+    display: flex;
+}
+
+.host-thumbnail {
+    width: 64px;
+    height: 64px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.host-thumbnail > img {
+    width: 100%;
+}

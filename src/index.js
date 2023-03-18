@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import Home from './Pages/Home';
 import About from './Pages/About';
 import LogementPage from './Pages/LogementPage';
+import Error from './Pages/Error';
 import './styles/Global.css';
 import './styles/Banner.css'
 import './styles/Colors.css';
@@ -21,6 +22,7 @@ root.render(
           <Route exact path='/' element={<Home />}/>
           <Route path='/about' element={<About />}/>
           <Route path='/logement/:id' element={<LogementPage />}/>
+          <Route path='*' element={<Error />} />
           </Routes>
        
     <Footer />
