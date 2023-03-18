@@ -6,11 +6,11 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './Pages/Home';
 import About from './Pages/About';
-import announces from './datas/announces';
 import './styles/Global.css';
 import './styles/Banner.css'
+import './styles/Colors.css';
 
-console.log(announces)
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

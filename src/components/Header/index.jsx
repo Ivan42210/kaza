@@ -8,8 +8,8 @@ function Header(){
         <nav className="max-width header">
             <img src={logo} alt="" />
             <div>
-                <Link to="/" className='nav-link'>Accueil</Link>
-                <Link to="/about" className='nav-link'>A propos</Link>
+                <Link to="/" className='nav-link link-primary'>Accueil</Link>
+                <Link to="/about" className='nav-link link-primary'>A propos</Link>
             </div>
         </nav>
     )

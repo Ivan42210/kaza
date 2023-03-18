@@ -9,5 +9,16 @@
     object-fit: cover;
     opacity: 0.5;
     width: 100%;
-    object-position: -1px -232px;
+    object-position: 0px -300px;
+}
+
+.banner-text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

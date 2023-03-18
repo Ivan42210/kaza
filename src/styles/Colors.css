@@ -1,0 +1,50 @@
+:root {
+    --primary: #ff6060;
+    --secondary: #f6f6f6;
+    --dark: #000000;
+    --light: #ffffff;
+}
+
+/*backgrounds*/
+
+.bg-primary {
+    background: var(--primary);
+}
+
+.bg-secondary {
+    background: var(--secondary);
+}
+
+.bg-dark {
+    background: var(--dark);
+}
+
+/*text*/
+
+.text-primary {
+    color: var(--primary);
+}
+
+.text-secondary {
+    color: var(--secondary);
+}
+
+.text-dark {
+    color: var(--dark);
+}
+
+.text-light {
+    color: var(--light);
+}
+
+/*links*/
+
+.link-primary {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.link-light {
+    color: var(--light);
+    text-decoration: none;
+}
