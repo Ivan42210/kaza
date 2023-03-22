@@ -1,11 +1,10 @@
 import AnnounceHead from "../AnnounceHead";
+import Carousel from "../Carousel";
 
 function Logement({...logement}){
     return(
         <div key={logement.id} className="max-width">
-            <div className="logement-carousel">
-            <img src={logement.cover} alt="" />
-            </div>
+            <Carousel images={logement.pictures} title={logement.title}/>
             <AnnounceHead 
             id={logement.id}
             title={logement.title}
