@@ -1,0 +1,7 @@
+.logement-body {
+    display: flex;
+}
+
+.logement-part {
+    width: 50%;
+}

@@ -1,0 +1,28 @@
+.collapse {
+    width: 582px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.collapse-btn {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: none;
+    height: 52px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+.collapse-item {
+    list-style: none;
+}
+
+.collapse-body {
+    padding: 10px;
+}
+
+.collapse-body>ul {
+    padding: 0;
+}
