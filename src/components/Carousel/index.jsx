@@ -27,9 +27,8 @@ function Carousel({images, title}){
     }
 
     return(
-        <section className="carousel" aria-label="logement" aria-roledescription="carousel" aria-atomic="false" aria-live="polite">
-            {images.length <1 && <Button className="button" dataAction="previous-slide" ariaLabel="previous" onClick={handlePreviousClick}/>}
-
+        <section className="carousel bg-primary" aria-label="logement" aria-roledescription="carousel" aria-atomic="false" aria-live="polite">
+            {images.length > 1 && <Button className="button" dataAction="previous-slide" ariaLabel="previous" onClick={handlePreviousClick}/>}
             {images.map((image, index) => {
                 let slideNumber = `Image ${index +1} of ${images.length}`;
                 const isVisible = index === currentSlideIndex ? true : false;

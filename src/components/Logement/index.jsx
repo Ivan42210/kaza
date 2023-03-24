@@ -13,6 +13,7 @@ function Logement({...logement}){
             title={logement.title}
             host={logement.host}
             location={logement.location}
+            tags={logement.tags}
             />
             <section className="logement-body">
                 <div className="logement-part">
@@ -21,11 +22,13 @@ function Logement({...logement}){
                 text={logement.description}
                 type={"description"}/>
                 </div>
-                <div className="logement-part">
+                <div className="logement-part d-flex justify-end">
+                <div>
                 <Collapse 
                 title={"Equipements"}
                 list={logement.equipments}
                 type={"equipments"}/>
+                </div>
                 </div>
 
             </section>

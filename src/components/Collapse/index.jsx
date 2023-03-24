@@ -3,9 +3,12 @@ import '../../styles/Collapse.css'
 
 function Collapse({title, text, type, list}){
 
-    
+  
 
-    const [isOpen, setOpen ] = useState(false)
+    const [isOpen, setOpen ] = useState(false);
+
+    
+   
 
 
     return (
@@ -18,13 +21,13 @@ function Collapse({title, text, type, list}){
                 <div className="collapse-body">
                     <ul>
                         {list.map((item, index) =>(
-                            <li key={index} className="collapse-item">{item}</li>
+                            <li key={index} className="collapse-item text-primary">{item}</li>
                         ))}
                     </ul>
                 </div>
             ) : (
                 <div className="collapse-body bg-secondary">
-                    <p>{text}</p>
+                    <p className="text-primary collapse-text">{text}</p>
                 </div>
             ))}
         </div>

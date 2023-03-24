@@ -1,0 +1,15 @@
+.tag-section {
+    display: flex;
+    gap: 10px;
+}
+
+.tag-item {
+    min-width: 115px;
+    height: 25px;
+    font-size: 14px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px;
+}

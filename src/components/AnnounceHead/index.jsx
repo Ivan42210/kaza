@@ -1,12 +1,15 @@
 import Host from "../Host";
+import Tags from "../Tags";
 import '../../styles/Announce.css'
 
-function AnnounceHead({id, title, host, location}){
+function AnnounceHead({id, title, host, location, tags}){
     return(
         <div key={id} className="announce-top">
             <div>
-                <h3 className="text-primary">{title}</h3>
-                <h4 className="text-primary">{location}</h4>
+                <h3 className="text-primary announce-title">{title}</h3>
+                <h4 className="text-primary announce-location">{location}</h4>
+                <Tags 
+                tags={tags}/>
             </div>
             <div>
                 <div>

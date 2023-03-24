@@ -26,3 +26,11 @@
 .collapse-body>ul {
     padding: 0;
 }
+
+.collapse-item,
+.collapse-text {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+}
