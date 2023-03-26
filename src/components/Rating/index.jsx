@@ -1,5 +1,6 @@
 import starEmpty from '../../assets/star.svg';
 import starFull from '../../assets/starfull.svg';
+import '../../styles/Rating.css'
 
 function Rating({rating}){
 
