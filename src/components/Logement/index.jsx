@@ -14,6 +14,7 @@ function Logement({...logement}){
             host={logement.host}
             location={logement.location}
             tags={logement.tags}
+            rating={logement.rating}
             />
             <section className="logement-body">
                 <div className="logement-part w-50">
