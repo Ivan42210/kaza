@@ -9,7 +9,7 @@ Le projet se trouve sur branch-developpement, le main reste vierge.
 
 vous devez auparavant vous assurer d'avoir:
 - Node JS
-- npm d'installer sur votre machine
+- npm d'installé sur votre machine
 
 Pour lire le projet, veuillez télécharger ou cloner branch-developpement dans un dossier, l'ouvrir avec Visual Studio Code,
 ouvrir le dossier et dans le terminal, installer Node_modules en tapant npm install.
