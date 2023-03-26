@@ -15,7 +15,7 @@ function About(){
         < Banner
         img={bannerAbout}
         alt={alt}/>
-        <main className="about-body mx-auto">
+        <main className="about-body d-flex flex-col mx-auto">
         <Collapse
         title={'Fiabilité'}
         text={textLiability}

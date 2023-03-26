@@ -1,7 +1,4 @@
 .logement-body {
     display: flex;
-}
-
-.logement-part {
-    width: 50%;
+    gap: 88px;
 }

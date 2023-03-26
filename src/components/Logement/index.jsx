@@ -16,13 +16,13 @@ function Logement({...logement}){
             tags={logement.tags}
             />
             <section className="logement-body">
-                <div className="logement-part">
+                <div className="logement-part w-50">
                 <Collapse 
                 title={"Description"}
                 text={logement.description}
                 type={"description"}/>
                 </div>
-                <div className="logement-part d-flex justify-end">
+                <div className="logement-part w-50">
                 <div>
                 <Collapse 
                 title={"Equipements"}
