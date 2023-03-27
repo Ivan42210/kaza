@@ -13,3 +13,11 @@
     align-items: center;
     padding: 0 5px;
 }
+
+@media (max-width: 600px) {
+    .tag-item {
+        min-width: 84px;
+        height: 18px;
+        font-size: 10px;
+    }
+}

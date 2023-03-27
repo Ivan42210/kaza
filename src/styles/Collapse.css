@@ -49,3 +49,19 @@
 .collapse-arrow-false {
     transform: rotate(180deg);
 }
+
+@media (max-width: 600px) {
+    .collapse-btn {
+        font-size: 13px;
+        height: 30px;
+    }
+    .collapse-btn > img {
+        height: 15px;
+        overflow: hidden;
+    }
+    .collapse-item,
+    .collapse-text {
+        font-size: 13px;
+        line-height: 19px;
+    }
+}

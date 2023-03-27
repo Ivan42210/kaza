@@ -54,11 +54,33 @@
 @media (max-width: 600px) {
     .announce-top {
         flex-direction: column;
+        margin-top: 16px;
+    }
+    .announce-title {
+        font-size: 18px;
+        line-height: 26px;
+        text-align: left;
+    }
+    .announce-location {
+        font-size: 14px;
+        line-height: 20px;
+        text-align: left;
+    }
+    .host {
+        margin-top: 16px;
     }
     .host-second-part {
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
         align-items: center;
+    }
+    .host-introducing > h4 {
+        font-size: 12px;
+        line-height: 17px;
+    }
+    .host-thumbnail {
+        width: 32px;
+        height: 32px;
     }
 }
