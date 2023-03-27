@@ -67,3 +67,9 @@
 .page-normalization {
     min-height: 75.5vh;
 }
+
+@media (max-width: 600px) {
+    .w-50 {
+        width: 100%;
+    }
+}

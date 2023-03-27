@@ -8,4 +8,7 @@
         padding-left: 0.8em;
         padding-right: 0.8em;
     }
+    .logement-body {
+        flex-direction: column;
+    }
 }

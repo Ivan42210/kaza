@@ -13,7 +13,7 @@ function AnnounceHead({id, title, host, location, tags, rating}){
                 tags={tags}/>
             </div>
             <div>
-                <div>
+                <div className="host-second-part">
                     <Host
                         {...host}
                     />
