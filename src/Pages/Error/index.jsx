@@ -8,7 +8,7 @@ function Error(){
             <section>
             <img src={errorPic} alt="error404" />
             <p className="text-primary text-center">Oups! La page que vous demandez n'existe pas.</p>
-            <Link to={'/'} className="text-primary mx-auto">Retourner à la page d'accueil</Link>
+            <Link to={'/'} className="text-primary link-error">Retourner à la page d'accueil</Link>
             </section>       
         </div>
     )

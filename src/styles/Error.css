@@ -4,3 +4,46 @@
     align-items: center;
     justify-content: center;
 }
+
+.error > section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.error > section > p {
+    margin-top: 66px;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 51px;
+    letter-spacing: 0em;
+}
+
+.link-error {
+    margin-top: 182px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+}
+
+@media (max-width: 600px) {
+    .error {
+        height: 88vh;
+    }
+    .error > section > img {
+        width: 198px;
+    }
+    .error > section > p {
+        margin-top: 11px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0em;
+    }
+    .link-error {
+        margin-top: 133px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
