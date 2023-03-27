@@ -45,3 +45,12 @@
 :is([data-action$="slide"]:focus, [data-action$="slide"]:hover) {
     background-color: var(--light);
 }
+
+@media (max-width: 600px) {
+    .carousel {
+        height: 255px;
+    }
+    .slide {
+        height: 255px;
+    }
+}

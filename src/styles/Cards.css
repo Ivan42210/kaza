@@ -1,6 +1,7 @@
 .card-section {
+    background: var(--secondary);
     padding: 40px;
-    margin-top: 30px;
+    margin-top: 43px;
     margin-bottom: 30px;
     display: flex;
     justify-content: center;
@@ -57,4 +58,20 @@
     left: 0;
     bottom: 0;
     right: 0;
+}
+
+/*responsive*/
+
+@media (max-width: 600px) {
+    .card-section {
+        background: transparent;
+        margin-top: 16px;
+        padding: 0;
+        margin-left: 0.8em;
+        margin-right: 0.8em;
+    }
+    .card-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
 }

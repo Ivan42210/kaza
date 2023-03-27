@@ -50,3 +50,9 @@
 .host-thumbnail > img {
     width: 100%;
 }
+
+@media (max-width: 600px) {
+    .announce-top {
+        flex-direction: column;
+    }
+}

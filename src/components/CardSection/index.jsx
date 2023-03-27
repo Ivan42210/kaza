@@ -4,7 +4,7 @@ import '../../styles/Cards.css'
 
 function CardSection(){
     return(
-       <section className="card-section bg-secondary">
+       <section className="card-section">
         <div className="card-container">
         { announces.map(({id, title, cover}) =>(
            

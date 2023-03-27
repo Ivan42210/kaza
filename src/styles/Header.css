@@ -31,3 +31,21 @@
     letter-spacing: 0em;
     text-decoration: underline;
 }
+
+@media (max-width: 600px) {
+    .header {
+        padding-top: 20px;
+        padding-bottom: 16px;
+    }
+    .header > img {
+        height: 47px;
+    }
+    .nav-link {
+        font-size: 12px;
+        line-height: 17px;
+    }
+    .nav-link-active {
+        font-size: 12px;
+        line-height: 17px;
+    }
+}

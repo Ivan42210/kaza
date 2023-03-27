@@ -5,7 +5,7 @@
     overflow: hidden;
 }
 
-.banner>img {
+.banner > img {
     object-fit: cover;
     opacity: 0.5;
     width: 100%;
@@ -23,9 +23,28 @@
     align-items: center;
 }
 
-.banner-text>h2 {
+.banner-text > h2 {
     font-size: 48px;
     font-weight: 500;
     line-height: 68px;
     letter-spacing: 0em;
+}
+
+@media (max-width: 600px) {
+    .banner {
+        height: 111px;
+        margin-left: 0.8em;
+        margin-right: 0.8em;
+    }
+    .banner-text > h2 {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .banner-text {
+        width: 217px;
+        margin-left: 16px;
+    }
 }

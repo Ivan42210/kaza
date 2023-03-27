@@ -2,3 +2,10 @@
     display: flex;
     gap: 88px;
 }
+
+@media (max-width: 600px) {
+    .logement-page {
+        padding-left: 0.8em;
+        padding-right: 0.8em;
+    }
+}

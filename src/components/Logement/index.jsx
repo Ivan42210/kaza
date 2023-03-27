@@ -6,7 +6,7 @@ import '../../styles/Logement.css'
 function Logement({...logement}){
     
     return(
-        <div key={logement.id} className="max-width">
+        <div key={logement.id} className="max-width logement-page">
             <Carousel images={logement.pictures} title={logement.title}/>
             <AnnounceHead 
             id={logement.id}

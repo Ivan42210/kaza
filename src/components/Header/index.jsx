@@ -11,7 +11,7 @@ function Header(){
     return(
         <nav className="max-width header">
             <img src={logo} alt="" />
-            <div>
+            <div className='nav-link-section'>
                 <NavLink to="/" className={({isActive}) => (isActive ? "nav-link-active" : "nav-link")}>Accueil</NavLink>
                 <NavLink to="/about" className={({isActive}) => (isActive ? "nav-link-active" : "nav-link")}>A propos</NavLink>
             </div>
