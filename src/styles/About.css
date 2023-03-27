@@ -3,3 +3,14 @@
     margin: 31px 0;
     gap: 31px;
 }
+
+@media (max-width: 600px) {
+    .about-body {
+        width: 100%;
+        margin-top: 16px;
+        margin-bottom: 168px;
+        box-sizing: border-box;
+        padding-left: 0.8em;
+        padding-right: 0.8em;
+    }
+}

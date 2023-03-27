@@ -72,4 +72,8 @@
     .w-50 {
         width: 100%;
     }
+    .mx-auto {
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
