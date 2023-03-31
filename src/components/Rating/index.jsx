@@ -6,18 +6,24 @@ function Rating({rating}){
 
 
 
-    let fullStars = Array.from({ length: rating }, (index) => index);
-    let emptyStars = Array.from({ length: 5 - rating }, (index) => index);
+    let fullStars = Array.from({ length: rating }, (value, index) => index);
+    let emptyStars = Array.from({ length: 5 - rating }, (value, index) => index);
+
+    console.log(fullStars)
+
     
     return (
         <div className="rate">
         {
-            fullStars.map((index) => {
-                return (<img key={index} alt="star" className="star" src={starFull}></img>)
+            fullStars.map((star, index) => {
+                console.log(index)
+               return (
+               <img key={index} alt="star" className="star" src={starFull}></img>
+               )
             })
         }
         {
-            emptyStars.map((index) => {
+            emptyStars.map((star, index) => {
                 return (<img key={index} alt="star" className="star" src={starEmpty}></img>)
             })
         }

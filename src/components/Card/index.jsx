@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Card({id,title, cover}){
     return (
-        <div key={id} className="card position-relative">
+        <div id={id} className="card position-relative">
             <Link className="card-link" to={`/logement/${id}`}>
             <img className="card-thumbnail" src={cover} alt={title} />
            <div className="card-styling">

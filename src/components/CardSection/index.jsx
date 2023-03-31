@@ -9,6 +9,8 @@ function CardSection(){
         { announces.map(({id, title, cover}) =>(
            
              <Card
+
+             key={id}
                 id={id}
                 title={title}
                 cover={cover}
