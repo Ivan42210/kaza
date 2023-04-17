@@ -48,6 +48,7 @@
 
 .flex-col {
     flex-direction: column;
+    width: 100%;
 }
 
 .justify-end {
