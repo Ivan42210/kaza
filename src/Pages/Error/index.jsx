@@ -6,9 +6,9 @@ function Error(){
     return(
         <div className="max-width error">
             <section>
-            <img src={errorPic} alt="error404" />
-            <p className="text-primary text-center">Oups! La page que vous demandez n'existe pas.</p>
-            <Link to={'/'} className="text-primary link-error">Retourner à la page d'accueil</Link>
+                <img src={errorPic} alt="error404" />
+                <p className="text-primary text-center">Oups! La page que vous demandez n'existe pas.</p>
+                <Link to={'/'} className="text-primary link-error">Retourner à la page d'accueil</Link>
             </section>       
         </div>
     )
