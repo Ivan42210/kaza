@@ -8,28 +8,15 @@ function Logement({...logement}){
     return(
         <div key={logement.id} className="max-width logement-page">
             <Carousel images={logement.pictures} title={logement.title}/>
-            <AnnounceHead 
-            id={logement.id}
-            title={logement.title}
-            host={logement.host}
-            location={logement.location}
-            tags={logement.tags}
-            rating={logement.rating}
-            />
+            <AnnounceHead id={logement.id} title={logement.title} host={logement.host} location={logement.location} tags={logement.tags}rating={logement.rating}/>
             <section className="logement-body">
                 <div className="logement-part w-50">
-                <Collapse 
-                title={"Description"}
-                text={logement.description}
-                type={"description"}/>
+                    <Collapse title={"Description"} text={logement.description} type={"description"}/>
                 </div>
                 <div className="logement-part w-50">
-                <div>
-                <Collapse 
-                title={"Equipements"}
-                list={logement.equipments}
-                type={"equipments"}/>
-                </div>
+                    <div>
+                        <Collapse title={"Equipements"} list={logement.equipments} type={"equipments"}/>
+                    </div>
                 </div>
 
             </section>
