@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,25 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# kaza
+Projet 11
+
+# Important
+
+Le projet se trouve sur branch-developpement, le main reste vierge.
+
+# Lire le projet
+
+vous devez auparavant vous assurer d'avoir:
+- Node JS
+- npm d'installé sur votre machine
+
+Pour lire le projet, veuillez télécharger ou cloner branch-developpement dans un dossier, l'ouvrir avec Visual Studio Code,
+ouvrir le dossier et dans le terminal, installer Node_modules en tapant npm install.
+
+Une fois ceci fait, lancer l'application en tapant npm start dans votre terminal.
+
+
+
+>>>>>>> 738b78789ac6bd40a584acb7bafbb609053d132c
