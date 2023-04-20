@@ -33,7 +33,7 @@ function Carousel({images, title}){
                 let slideNumber = `Image ${index +1} of ${images.length}`;
                 const isVisible = index === currentSlideIndex ? true : false;
 
-                return <Slide key={index} alt={title} src={image} isVisible={isVisible} ariaLabel={slideNumber}></Slide>
+                return <Slide key={index} alt={title} src={image} isVisible={isVisible} ariaLabel={slideNumber} index={index} length={images.length}></Slide>
             })
             }
             {images.length > 1 && <Button className="button" dataAction="next-slide" ariaLabel="next" onClick={handleNextClick}/>}
